@@ -27,9 +27,9 @@
                         type="image/webp">
                     <source
                         sizes="1920w" 
-                        srcset="img/header.jpg 1920w"
+                        srcset="img/header.png 1920w"
                         type="image/jpeg">
-                    <img loading="lazy" decoding="async" src="img/header.jpg" lazyalt="imagen" width="1000" height="600">
+                    <img loading="lazy" decoding="async" src="img/header.png" lazyalt="imagen" width="1000" height="600">
                 </picture>
                 
             </div> <!-- .imagen-header -->
@@ -68,10 +68,53 @@
         <div class="sobre-producto-grid contenedor">
             <div class="texto-sobre-tech">
                 <h2>Sobre los <span>TechPRO</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A assumenda facilis dolorem, rerum voluptate sapiente asperiores</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro natus iusto nihil. Aliquam, nemo delectus reiciendis labore sit, beatae laudantium adipisci repellat dignissimos quia, enim quibusdam natus. Veniam, nemo magni.</p>
             </div>
         </div>
     </section>
 
+    <main class="contenedor modelos"> <!-- Cuando no tiene un background especifico, el contenedor se pone en la etiqueta padre -->
+        <div class="degradado-verde elige-titulo">
+            <h2 class="text-center">Elige tus TechPRO</h2>
+        </div>
+        
+        <div class="listado-modelos">
+            <div class="modelo modelo-x">
+                <h3>TechPRO X</h3>
+                <p class="precio">$299</p>
+            </div>
+            <div class="modelo modelo-y">
+                <h3>TechPRO Y</h3>
+                <p class="precio">$399</p>
+            </div>
+            <div class="modelo modelo-z">
+                <h3>TechPRO Z</h3>
+                <p class="precio">$499</p>
+            </div>
+        </div>
+    </main>
+
+    <section class="newsletter">
+        <div class="contenido-newsletter contenedor">
+            <div class="texto-newsletter">
+                <h2>Recibe Actualizaciones</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, illum doloribus eos iure explicabo nulla cupiditate quibusdam libero magnam aut atque exercitationem, rem officia ab molestiae commodi id nesciunt perspiciatis.</p>
+
+                <form action="formuario">
+                    <div class="input">
+                        <input type="text" placeholder="Tu Email">
+                    </div>
+
+                    <input type="submit" value="Inscribirme">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="derechos text-center">
+        <p>Todos los derechos reservados</p>
+    </footer>
+
+    <script src="/js/imagenes.js"></script>
 </body>
 </html>
